@@ -26,9 +26,9 @@ function AppContent() {
       {!hideNavbar && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+        {/* <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} /> */}
         <Route path="/login" element={<LogIn />} />
         <Route path="/signup" element={<Signup />} />
         <Route
